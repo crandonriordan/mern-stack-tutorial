@@ -9,6 +9,7 @@ function App() {
         <div className="pages">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/past" element={<h2>past</h2>} />
           </Routes>
         </div>
       </BrowserRouter>
